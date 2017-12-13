@@ -1,0 +1,1 @@
+export const devBaseUrl = 'http://rap.zanzanmd.com/mockjsdata'

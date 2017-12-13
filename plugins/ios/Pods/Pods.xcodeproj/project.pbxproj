@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8B6FD092DA887C8EA9D547EB64EB84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		0FF8806738DB558586E15218B5EAA61B /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E61E975CA9A00CF5CDCC7FC9C3D911C /* SocketRocket-dummy.m */; };
+		1E1A2B4515FB933BA3700B8319DFE46F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */; };
+		27B3B981361CA4412B83C2635D6F2289 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */; };
+		6014F8D35DAFEFC32BE847DC7F7ABA17 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FC1B6556B840F56B5D46B9A617AEC7 /* SRWebSocket.m */; };
+		9D2F65FB4A2F748E6BFDBEBB22DFD753 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F967F2DB92035623D4E35FCF59540C7 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B33629DD5D9A71E44E3C0F391CE8F5E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		BE734D52D623BE198BA4786590801FB6 /* Pods-WeexZanzanmdCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6418B791B4A988462F65CD4093683F /* Pods-WeexZanzanmdCamera-dummy.m */; };
+		F8A56C2AE9F479504EC2B08E15493DB1 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1970CB88C8A151E8F41C469C859FACAC /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1209B2B1F464D78F195827B32E8979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284AE1195327CD3F2DB2179B2256C423;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086BAD08DBE36996D1C057B1FE126DDD /* Pods-WeexZanzanmdCamera-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeexZanzanmdCamera-resources.sh"; sourceTree = "<group>"; };
+		1970CB88C8A151E8F41C469C859FACAC /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		1FDBCC0B1B96F83BC5A8EF744998575D /* Pods-WeexZanzanmdCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexZanzanmdCamera.release.xcconfig"; sourceTree = "<group>"; };
+		25FC1B6556B840F56B5D46B9A617AEC7 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		3F78C06EA4649F81222A61790E953B81 /* Pods-WeexZanzanmdCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeexZanzanmdCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47E9277D69AD7075CA62A7B1C74D8D33 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		4F6418B791B4A988462F65CD4093683F /* Pods-WeexZanzanmdCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeexZanzanmdCamera-dummy.m"; sourceTree = "<group>"; };
+		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6CF35A60CAB15CDE5AA0DD37794EA4FB /* Pods-WeexZanzanmdCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeexZanzanmdCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB404114989C20AA149376F4472E7E5 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E61E975CA9A00CF5CDCC7FC9C3D911C /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		8F967F2DB92035623D4E35FCF59540C7 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		961DEA4520F2695FEFD6DB93ECFDF60F /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "native-bundle-main.js"; path = "WeexSDK.framework/native-bundle-main.js"; sourceTree = "<group>"; };
+		996E895AD77A1CA8DAB2F7A8FA7E6EED /* wx_load_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wx_load_error@3x.png"; path = "WeexSDK.framework/wx_load_error@3x.png"; sourceTree = "<group>"; };
+		9BA96D8A3C036359962CEBB838FE00D6 /* WeexPluginLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexPluginLoader.framework; sourceTree = "<group>"; };
+		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9EE1913B5CC92743B9AA725C19DBD9A1 /* WeexSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeexSDK.framework; sourceTree = "<group>"; };
+		A1D82CBDCE8CC61846D3925A4C40F489 /* Pods-WeexZanzanmdCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeexZanzanmdCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		A6A2B972107125437B9E50A9639DEB1E /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		CF3A0637A76D233D3BD328CE47BF91A8 /* libPods-WeexZanzanmdCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WeexZanzanmdCamera.a"; path = "libPods-WeexZanzanmdCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A2311CF7E1842A3502ACD39F60632C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33629DD5D9A71E44E3C0F391CE8F5E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28AE61059049D280DD103C516A0A010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B3B981361CA4412B83C2635D6F2289 /* CFNetwork.framework in Frameworks */,
+				0B8B6FD092DA887C8EA9D547EB64EB84 /* Foundation.framework in Frameworks */,
+				1E1A2B4515FB933BA3700B8319DFE46F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01270294F281DBFEFF00BE2DFA1C79BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BA96D8A3C036359962CEBB838FE00D6 /* WeexPluginLoader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07EE0298AD71DF201C085951B15AFC1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				297AF792CF0AACA61CB862BE6722AD0B /* SocketRocket */,
+				B385004798716A0961A6BFC3C95B86C4 /* WeexPluginLoader */,
+				C32AED7F4577BDF64E00F5BD79BD3788 /* WeexSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E31E522DA958ED2891672DBA19ACEB2 /* Pods-WeexZanzanmdCamera */ = {
+			isa = PBXGroup;
+			children = (
+				3F78C06EA4649F81222A61790E953B81 /* Pods-WeexZanzanmdCamera-acknowledgements.markdown */,
+				A1D82CBDCE8CC61846D3925A4C40F489 /* Pods-WeexZanzanmdCamera-acknowledgements.plist */,
+				4F6418B791B4A988462F65CD4093683F /* Pods-WeexZanzanmdCamera-dummy.m */,
+				086BAD08DBE36996D1C057B1FE126DDD /* Pods-WeexZanzanmdCamera-resources.sh */,
+				6CF35A60CAB15CDE5AA0DD37794EA4FB /* Pods-WeexZanzanmdCamera.debug.xcconfig */,
+				1FDBCC0B1B96F83BC5A8EF744998575D /* Pods-WeexZanzanmdCamera.release.xcconfig */,
+			);
+			name = "Pods-WeexZanzanmdCamera";
+			path = "Target Support Files/Pods-WeexZanzanmdCamera";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D888213905F34217EF1880BE2758BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		297AF792CF0AACA61CB862BE6722AD0B /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				1970CB88C8A151E8F41C469C859FACAC /* SocketRocket.h */,
+				8F967F2DB92035623D4E35FCF59540C7 /* SRWebSocket.h */,
+				25FC1B6556B840F56B5D46B9A617AEC7 /* SRWebSocket.m */,
+				BA65843A88529DB2BBDB09ECFF91DAB8 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		59B0E4796AB68BC7EC6A786587D33BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE1913B5CC92743B9AA725C19DBD9A1 /* WeexSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7201CA6638667665430194023A76B7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3A0637A76D233D3BD328CE47BF91A8 /* libPods-WeexZanzanmdCamera.a */,
+				7BB404114989C20AA149376F4472E7E5 /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				07EE0298AD71DF201C085951B15AFC1D /* Pods */,
+				7201CA6638667665430194023A76B7CC /* Products */,
+				D1DE1C6699C1F27CDE9133459E0661BC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B385004798716A0961A6BFC3C95B86C4 /* WeexPluginLoader */ = {
+			isa = PBXGroup;
+			children = (
+				01270294F281DBFEFF00BE2DFA1C79BA /* Frameworks */,
+			);
+			name = WeexPluginLoader;
+			path = WeexPluginLoader;
+			sourceTree = "<group>";
+		};
+		BA65843A88529DB2BBDB09ECFF91DAB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E9277D69AD7075CA62A7B1C74D8D33 /* SocketRocket.xcconfig */,
+				7E61E975CA9A00CF5CDCC7FC9C3D911C /* SocketRocket-dummy.m */,
+				A6A2B972107125437B9E50A9639DEB1E /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		C32AED7F4577BDF64E00F5BD79BD3788 /* WeexSDK */ = {
+			isa = PBXGroup;
+			children = (
+				59B0E4796AB68BC7EC6A786587D33BC1 /* Frameworks */,
+				C8CDB6BBA31C724083A4B958BC12FC86 /* Resources */,
+			);
+			name = WeexSDK;
+			path = WeexSDK;
+			sourceTree = "<group>";
+		};
+		C8CDB6BBA31C724083A4B958BC12FC86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				961DEA4520F2695FEFD6DB93ECFDF60F /* native-bundle-main.js */,
+				996E895AD77A1CA8DAB2F7A8FA7E6EED /* wx_load_error@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1DE1C6699C1F27CDE9133459E0661BC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E31E522DA958ED2891672DBA19ACEB2 /* Pods-WeexZanzanmdCamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D6D888213905F34217EF1880BE2758BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */,
+				9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */,
+				50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46253893F80B5926B0C6C85C97B56A40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A56C2AE9F479504EC2B08E15493DB1 /* SocketRocket.h in Headers */,
+				9D2F65FB4A2F748E6BFDBEBB22DFD753 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		284AE1195327CD3F2DB2179B2256C423 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128D202FB0913B2E25F149B465B80959 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				01F03CBAC35765FDD503E841FD61D85A /* Sources */,
+				C28AE61059049D280DD103C516A0A010 /* Frameworks */,
+				46253893F80B5926B0C6C85C97B56A40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 7BB404114989C20AA149376F4472E7E5 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DE605F88FFD7424719F468DF2518C39D /* Pods-WeexZanzanmdCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2016F7C908E896A6F46BEE2655629BB1 /* Build configuration list for PBXNativeTarget "Pods-WeexZanzanmdCamera" */;
+			buildPhases = (
+				CB50EA4E8792BCE442740BA578AADC4D /* Sources */,
+				6A2311CF7E1842A3502ACD39F60632C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732624F0A9558412021C63D0E8EC6722 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeexZanzanmdCamera";
+			productName = "Pods-WeexZanzanmdCamera";
+			productReference = CF3A0637A76D233D3BD328CE47BF91A8 /* libPods-WeexZanzanmdCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7201CA6638667665430194023A76B7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE605F88FFD7424719F468DF2518C39D /* Pods-WeexZanzanmdCamera */,
+				284AE1195327CD3F2DB2179B2256C423 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F03CBAC35765FDD503E841FD61D85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF8806738DB558586E15218B5EAA61B /* SocketRocket-dummy.m in Sources */,
+				6014F8D35DAFEFC32BE847DC7F7ABA17 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB50EA4E8792BCE442740BA578AADC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE734D52D623BE198BA4786590801FB6 /* Pods-WeexZanzanmdCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732624F0A9558412021C63D0E8EC6722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 284AE1195327CD3F2DB2179B2256C423 /* SocketRocket */;
+			targetProxy = BA1209B2B1F464D78F195827B32E8979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A9C8BE89E12DBC99F8B04C0BC14715A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E9277D69AD7075CA62A7B1C74D8D33 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E8CB0EFA4F2F0BD9F2BADE22FEF615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDBCC0B1B96F83BC5A8EF744998575D /* Pods-WeexZanzanmdCamera.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98E5C2BECAB3444F724CC12060CFD10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E9277D69AD7075CA62A7B1C74D8D33 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC0CF7CB1578B2A64D33C977CB7BCB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF35A60CAB15CDE5AA0DD37794EA4FB /* Pods-WeexZanzanmdCamera.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128D202FB0913B2E25F149B465B80959 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E5C2BECAB3444F724CC12060CFD10A /* Debug */,
+				0A9C8BE89E12DBC99F8B04C0BC14715A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2016F7C908E896A6F46BEE2655629BB1 /* Build configuration list for PBXNativeTarget "Pods-WeexZanzanmdCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0CF7CB1578B2A64D33C977CB7BCB14 /* Debug */,
+				44E8CB0EFA4F2F0BD9F2BADE22FEF615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
